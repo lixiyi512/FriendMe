@@ -1,0 +1,115 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+body{
+    background-color:white;
+}
+.headerMenu{
+    background-color:#A14B47;
+    height:45px;
+    border-bottom: none;
+    padding-left: auto;
+    padding-right: auto;
+    width:100%;
+    margin:0px;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#wrapperMain{
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.logo{
+    width:100px;
+}
+
+.logo img{
+    width:150px;
+    height:45px;
+}
+
+
+
+.menu{
+    position: relative;
+    float:right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.menu a{
+    font-size: 18px;
+    text-decoration:none;
+    padding-left: 12px;
+    color:white;
+}
+#search input[type="text"]{
+    background: url(../img/search-icon.png) no-repeat 10px 6px;
+    outline: none;
+    border: none;
+    font: bold Arial, Helvetica, sans-serif;
+    width:200px;
+    padding:6px 15px 6px 35px;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1),0 1px 3px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1),0 1px 3px rgba(0,0,0,0.2) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.1),0 1px 3px rgba(0,0,0,0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition:all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;;
+    transition: all 0.7s ease 0s;
+}
+#search input[type="text"]:focus{
+    background: url(../img/search-icon.png) no-repeat 10px 6px #fcfcfc;
+    color: #6a6f75;
+    width:200px;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1),0 1px 1px rgba(0,0,0,0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1),0 1px 1px rgba(0,0,0,0.9) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.1),0 1px 1px rgba(0,0,0,0.9) inset;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.submit{
+    padding:5px 15px; 
+    background:#C27879; 
+    color:white;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+}
+
+/*input [type="submit"]{
+    background-color: #C27879;
+    border:1px solid #A14B47;
+    font-size:15px;
+    color:white;
+    padding:5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 3px;
+}*/
+.footer {
+    color: #6b6b6b;
+    text-align:center;
+    clear:both;
+    width:auto;
+    height:50px;
+    background-color:#fff;
+    border-top:1px solid #808080;
+}
